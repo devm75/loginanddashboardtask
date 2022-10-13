@@ -6,8 +6,8 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { InnerLayout } from "./components/wrapper/InnerLayout";
 import { Profile } from "./components/Profile";
 import { Login } from "./components/Login";
-import { PublicRoute } from "./Routes/PublicRoute";
-import { PrivateRoute } from "./Routes/PrivateRoute";
+import { PublicRoute } from "./routes/PublicRoute";
+import { PrivateRoute } from "./routes/PrivateRoute";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
